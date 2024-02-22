@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import {Prompt} from "next/font/google";
 
-const prompt = Prompt({subsets: ["latin"], weight: ["400", "700", "900"], variable: ["--font-prompt"]});
+const prompt = Prompt({subsets: ["latin"], weight: ["400", "700", "500", "900"], variable: ["--font-prompt"]});
 
 export default function Home() {
 	return (
