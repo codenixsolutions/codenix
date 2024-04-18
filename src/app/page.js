@@ -9,7 +9,7 @@ export default function Home() {
 		<main className={`h-screen w-screen flex justify-center items-center `}>
 			<div className="absolute h-screen w-screen hidden lg:inline md:inline overflow-hidden top-0 left-0">
 				<video className={"rotate-90 lg:rotate-0"} preload="auto" loop autoPlay muted>
-					<source src="/media/videos/network.mp4" type="video/mp4" />
+					<source src="vyb7tx4y.dev.cdn.imgeng.in/media/videos/network.mp4" type="video/mp4" />
 				</video>
 			</div>
 			<div className={`${prompt.variable} font-prompt lg:text-9xl md:text-6xl sm:text-6xl animate-pulse`}>Launching Soon</div>
